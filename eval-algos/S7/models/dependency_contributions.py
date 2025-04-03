@@ -1,9 +1,9 @@
-// The output is a CSV file showing, for each devtooling project:
-//   - The dependency (onchain project) id and name,
-//   - The sum of weighted edge values (v_edge) contributed by that dependency,
-//   - The fraction of the total package dependency contribution for that devtooling project.
+# The output is a CSV file showing, for each devtooling project:
+#    - The dependency (onchain project) id and name,
+#    - The sum of weighted edge values (v_edge) contributed by that dependency,
+#    - The fraction of the total package dependency contribution for that devtooling project.
 
-// This is used to isolate weights of the algorithm used for dependency packages as seen int he file devtooling_openrank.py
+# This is used to isolate weights of the algorithm used for dependency packages as seen int he file devtooling_openrank.py
 
 
 import argparse
